@@ -1,7 +1,7 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
     $("#triagram").on("click", trigger_nav);
-    $(".opener").on("click", open_instruction);
+    $(".click_to_open").on("click", open_instruction);
     $("#scroll_up").on("click", toTop);
 });
 
@@ -14,7 +14,11 @@ function trigger_nav(){
 }
 
 function open_instruction(){
-    $(this).nextAll("section").first().toggleClass("hide");
+    let state_of_instruction = $(this).parent().nextAll("div").first().css("display");
+        if(state_of_instruction == "none"){
+            $(this).parent().nextAll("div").first().show(550);}
+        else{
+            $(this).parent().nextAll("div").first().hide(550);}
 }
 
 function toTop() {
