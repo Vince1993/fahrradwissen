@@ -2,6 +2,7 @@
 $( document ).ready(function() {
     $("#triagram").on("click", trigger_nav);
     $(".click_to_open").on("click", open_instruction);
+    
     $("#scroll_up").on("click", toTop);
 });
 
@@ -16,9 +17,9 @@ function trigger_nav(){
 function open_instruction(){
     let state_of_instruction = $(this).parent().nextAll("div").first().css("display");
         if(state_of_instruction == "none"){
-            $(this).parent().nextAll("div").first().show(550);}
+            $(this).parent().nextAll("div").first().show(1200, "linear");}
         else{
-            $(this).parent().nextAll("div").first().hide(550);}
+            $(this).parent().nextAll("div").first().hide(250);}
 }
 
 function toTop() {
