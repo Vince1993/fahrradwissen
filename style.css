@@ -14,7 +14,10 @@ html{scroll-behavior: smooth;}
   font-variation-settings:"wdth", "YTLC" 500;
   text-decoration: none;
   color:black;}
-  
+
+mark{background: none;
+     font-weight: 700;}  
+
 button{border:none;}
 
 
