@@ -137,11 +137,10 @@ footer a{font-size: 16px;
               margin: 10px;}
 
         .hero{display:flex;
-                          flex-direction: row;
-                          height: calc(300/640 * 300px);
-                          margin-bottom: 10px ;}
+              flex-direction: row;
+              margin-bottom: 10px ;}
 
-        .full_width_image_respo{width: 300vw;}
+        .full_width_image_respo{width: 30vw;}
 
         .p_centered_with_padding{font-size: 17px;
                                  padding: 20px;}
@@ -172,11 +171,7 @@ footer a{font-size: 16px;
 
 @media screen and (min-width: 1080px){
         nav a{font-size: 26px;}
-        .hero{height: calc(300/640 * 300px);;            
-                           margin: 10px;}
-
-        .p_centered_with_padding{font-size: 18px}
-
+        
         .p_centered_with_padding{font-size: 20px;}
         .display_none_in_mobile{display:initial;}
         .box_link{font-size: 20px;}
