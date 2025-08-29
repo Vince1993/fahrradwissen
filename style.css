@@ -71,7 +71,7 @@ nav a{color: black;
       gap: 5px;
       margin: 10px 0px 10px 0;}
 
-.image_full_width{width: 100vw;}
+.image_full_width{width: 100%;}
 
 
 
@@ -107,8 +107,8 @@ footer a{font-size: 16px;
                       flex-direction:column;}
 .wrapper{flex-flow: wrap;
          border: 1px solid black;}
-.wrapper img{width: 65vw;}
-.wrapper div{width: 35vw;
+.wrapper img{width: 65%;}
+.wrapper div{width: 35%;
              display: flex;
              justify-content: center;
              align-items: center;
@@ -155,8 +155,8 @@ footer a{font-size: 16px;
 
         /*anleitungen.html*/
         /*grundwissen.html*/
-        .wrapper img{width: 50vw;}
-        .wrapper div{width: 50vw;}
+        .wrapper img{width: 50%;}
+        .wrapper div{width: 50%;}
         .wrapper div h4{font-size: 23px;}
 
         
@@ -185,8 +185,8 @@ footer a{font-size: 16px;
 
         /*anleitungen.html*/
         /*grundwissen.html*/
-        .wrapper img{width: 30vw;}
-        .wrapper div{width: 70vw;}
+        .wrapper img{width: 30%;}
+        .wrapper div{width: 70%;}
         .wrapper div h4{font-size: 27px;}
 
         
