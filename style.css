@@ -51,7 +51,6 @@ nav a{color: black;
 .full_width_image_respo{width: 100%;}
 .p_centered_with_padding{text-align: center;
                         align-self: center;
-                        flex-grow: 2;
                         font-size: 16px;
                         padding: 10px;
                         margin: 5px;}
@@ -77,15 +76,15 @@ nav a{color: black;
 
 
 
-.box_link{ width: 85%;
+.box_link{ width: 88%;
            font-size: 18px;
            font-weight: 400;
            text-align: center;
            align-self: center;
            background-color:#3d3d3d;
            color:white;
-           padding: 20px;}
-.round_corners{border-radius: 5px;}
+           padding: 16px;}
+.round_corners{border-radius: 10px;}
 
 footer{ display:flex;
         flex-direction: column;
@@ -114,7 +113,7 @@ footer a{font-size: 16px;
              justify-content: center;
              align-items: center;
              
-             background-color: rgb(229, 240, 231);}
+             background-color: rgb(243, 243, 243);}
 .wrapper div h4{font-size: 20px;
                 text-align:center;}
 
