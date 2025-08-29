@@ -141,7 +141,7 @@ footer a{font-size: 16px;
                           height: calc(300/640 * 300px);
                           margin-bottom: 10px ;}
 
-        .full_width_image_respo{width: 300px;}
+        .full_width_image_respo{width: 300vw;}
 
         .p_centered_with_padding{font-size: 17px;
                                  padding: 20px;}
@@ -174,7 +174,6 @@ footer a{font-size: 16px;
         nav a{font-size: 26px;}
         .hero{height: calc(300/640 * 300px);;            
                            margin: 10px;}
-        .full_width_image_respo{width: 500px;}
 
         .p_centered_with_padding{font-size: 18px}
 
