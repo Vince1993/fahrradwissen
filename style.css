@@ -172,6 +172,7 @@ footer a{font-size: 16px;
 @media screen and (min-width: 1080px){
         nav a{font-size: 26px;}
 
+        .full_width_image_respo{width: 640px;}
         .p_centered_with_padding{font-size: 20px;}
         .display_none_in_mobile{display:initial;}
         .box_link{font-size: 20px;}
