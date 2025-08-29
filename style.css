@@ -75,7 +75,7 @@ nav a{color: black;
 
 .hero2{justify-content: center;
        align-items: center;}
-.hero2 img{width: 25%;}
+.hero2 img{width: 35%;}
 
 
 .box_link{ width: 85%;
@@ -187,8 +187,8 @@ footer a{font-size: 16px;
 
         /*anleitungen.html*/
         /*grundwissen.html*/
-        .wrapper img{width: 38%;}
-        .wrapper div{width: 62%;}
+        .wrapper img{width: 30%;}
+        .wrapper div{width: 70%;}
         .wrapper div h4{font-size: 27px;}
 
         
