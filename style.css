@@ -140,7 +140,7 @@ footer a{font-size: 16px;
               flex-direction: row;
               margin-bottom: 10px;}
 
-        .full_width_image_respo{width: 60%;}
+        .full_width_image_respo{width: 40vw;}
 
         .p_centered_with_padding{font-size: 17px;
                                  padding: 20px;}
