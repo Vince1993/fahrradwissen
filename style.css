@@ -48,7 +48,7 @@ nav a{color: black;
           flex-direction: row;}
 .flex_column{display: flex;
              flex-direction:column;}
-.full_width_image_respo{width: 100%;}
+.full_width_image_respo{width: 100vw;}
 .p_centered_with_padding{text-align: center;
                         align-self: center;
                         font-size: 16px;
@@ -60,18 +60,18 @@ nav a{color: black;
 
 .hero2{justify-content: center;
        align-items: center;}
-.hero2 img{width: 35%;}
+.hero2 img{width: 35vw;}
 .display_none_in_mobile{display:none;}
 
 
 .grid{display:grid;
-      grid-template-columns: repeat(1, 100%);
+      grid-template-columns: repeat(1, 100vw);
       grid-auto-rows: content;
       justify-items: center;
       gap: 5px;
       margin: 10px 0px 10px 0;}
 
-.image_full_width{width: 100%;}
+.image_full_width{width: 100vw;}
 
 
 
@@ -107,8 +107,8 @@ footer a{font-size: 16px;
                       flex-direction:column;}
 .wrapper{flex-flow: wrap;
          border: 1px solid black;}
-.wrapper img{width: 65%;}
-.wrapper div{width: 35%;
+.wrapper img{width: 65vw;}
+.wrapper div{width: 35vw;
              display: flex;
              justify-content: center;
              align-items: center;
@@ -125,7 +125,7 @@ footer a{font-size: 16px;
             padding: 30px;}
 .svgs_in_row{justify-content: center;
              margin: 10px;}
-.svgs_in_row img{width: 15.3%;}
+.svgs_in_row img{width: 15.3vw;}
 
 @media screen and (min-width: 600px){
         a:hover{font-weight:400;}
@@ -155,8 +155,8 @@ footer a{font-size: 16px;
 
         /*anleitungen.html*/
         /*grundwissen.html*/
-        .wrapper img{width: 50%;}
-        .wrapper div{width: 50%;}
+        .wrapper img{width: 50vw;}
+        .wrapper div{width: 50vw;}
         .wrapper div h4{font-size: 23px;}
 
         
@@ -164,7 +164,7 @@ footer a{font-size: 16px;
             font-size: 18px;
             padding: 60px;}
         .svgs_in_row{justify-content: center;}
-        .svgs_in_row img{width: 20.0%;}
+        .svgs_in_row img{width: 20.0vw;}
         
 
 
@@ -185,8 +185,8 @@ footer a{font-size: 16px;
 
         /*anleitungen.html*/
         /*grundwissen.html*/
-        .wrapper img{width: 30%;}
-        .wrapper div{width: 70%;}
+        .wrapper img{width: 30vw;}
+        .wrapper div{width: 70vw;}
         .wrapper div h4{font-size: 27px;}
 
         
@@ -194,7 +194,7 @@ footer a{font-size: 16px;
             font-size: 19px;
             padding: 100px;}
         .svgs_in_row{justify-content: center;}
-        .svgs_in_row img{width: 14.0%;}
+        .svgs_in_row img{width: 14.0vw;}
 }
 
 
